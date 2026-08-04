@@ -1,4 +1,4 @@
-# Paradigmas de Linguagens de Programação — Atividade: Python
+# Paradigmas de Linguagens de Programação: Atividade: Python
 
 Atividade prática da disciplina de **Paradigmas de Linguagens de Programação**.
 Linguagem sorteada para o grupo: **Python**.
@@ -39,11 +39,11 @@ python3 src/ola_mundo.py
 python3 src/tabuada.py
 ```
 
-Não há dependências externas — apenas Python 3 (testado no Python 3.12.3).
+Não há dependências externas, apenas Python 3 (testado no Python 3.12.3).
 
 ---
 
-## Passo 1 — "Olá, mundo!"
+## Passo 1 - "Olá, mundo!"
 
 ```python
 print("Olá, mundo!")
@@ -56,11 +56,9 @@ Olá, mundo!
 ```
 
 Em Python o "Olá, mundo!" é uma única linha: não existe classe obrigatória,
-função `main` obrigatória, nem declaração de tipos. Isso já revela duas decisões
-de projeto da linguagem — **tipagem dinâmica** e **execução de script de cima
-para baixo** por um interpretador.
+função `main` obrigatória, nem declaração de tipos.
 
-## Passo 2 — Tabuada
+## Passo 2 - Tabuada
 
 Código completo de [src/tabuada.py](src/tabuada.py):
 
@@ -95,12 +93,12 @@ Tabuada do 7:
 ```
 
 > O programa assume que a entrada é um número inteiro. Se for digitado texto
-> (`abc`), o `int()` levanta `ValueError` e a execução para — comportamento
+> (`abc`), o `int()` levanta `ValueError` e a execução para, comportamento
 > esperado para o escopo desta atividade.
 
 ---
 
-## Passo 3 — Pesquisa
+## Passo 3 - Pesquisa
 
 ### 3.1 Vaga real
 
@@ -115,7 +113,7 @@ Tabuada do 7:
 
 **Onde Python entra:** entre os requisitos técnicos está explicitamente
 *"Scripting and automation (Shell Script, PowerShell, and **Python**)"*. A vaga
-usa Python como linguagem de automação e integração — um dos usos mais comuns
+usa Python como linguagem de automação e integração, um dos usos mais comuns
 da linguagem no mercado corporativo, ao lado de dados e web.
 
 **Outros requisitos da vaga:** ensino superior completo, inglês fluente,
@@ -129,7 +127,7 @@ maternidade estendida (180 dias), subsídio para estudos e bônus anual.
 
 ### 3.2 Faixa salarial
 
-A vaga da Bosch **não divulga o salário** — o que é a regra, e não a exceção,
+A vaga da Bosch **não divulga o salário**, o que é a regra, e não a exceção,
 no mercado brasileiro de TI. Por isso a faixa abaixo vem de dados agregados de
 mercado (Glassdoor, Indeed e Python Brasil), consultados em 04/08/2026:
 
@@ -165,11 +163,11 @@ escolher um único estilo e permite misturá-los no mesmo arquivo.
 Características de implementação que também classificam a linguagem:
 
 - **Interpretada** (bytecode executado pela CPython) e de **alto nível**;
-- **Tipagem dinâmica e forte** — o tipo é verificado em tempo de execução, mas
+- **Tipagem dinâmica e forte**, o tipo é verificado em tempo de execução, mas
   não há coerção silenciosa entre tipos incompatíveis (`1 + "1"` é erro);
 - **Gerenciamento automático de memória** (contagem de referências + coletor de ciclos);
 - **Anotações de tipo opcionais** (`def f(x: int) -> str`), usadas por
-  ferramentas externas como o *mypy* — não são verificadas em tempo de execução.
+  ferramentas externas como o *mypy*, não são verificadas em tempo de execução.
 
 **Por que Python não é puramente funcional:** ele permite efeitos colaterais e
 estado mutável livremente, não garante funções puras, não tem otimização de
@@ -185,7 +183,7 @@ mais direto em Python e o mais comum para programas pequenos.
 O mesmo problema poderia ser resolvido em estilo funcional (`map` sobre um
 `range`, sem laço nem variável de controle) ou orientado a objetos (uma classe
 `Tabuada` guardando o número e um método para gerar as linhas). O resultado
-seria idêntico — e é justamente esse o ponto do multiparadigma: a escolha entre
+seria idêntico, e é justamente esse o ponto do multiparadigma: a escolha entre
 os estilos é de legibilidade e manutenção, não de possibilidade.
 
 ---

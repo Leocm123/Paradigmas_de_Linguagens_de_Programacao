@@ -392,20 +392,6 @@ sequência de tokens obedece à gramática. Os rastreamentos e a pilha mostram q
 as abordagens descendente e ascendente percorrem a mesma estrutura em direções
 opostas e chegam ao mesmo veredito.
 
-## Pontos a conferir na entrega
-
-Divergências entre o roteiro e o material entregue, registradas para eventual
-ajuste:
-
-| Ponto | Roteiro | Entregue |
-|---|---|---|
-| RA na Estação 4 | `24015988-2` | aparece como `2015988-2` no print |
-| Pasta da Estação 1 | `01-lexemas-tokens` | aba mostra `lexemas-tokens` |
-| `ENTRADA_INVALIDA` | `"id+*id"` | `"+id*id"` |
-
-Nenhuma delas altera o conceito demonstrado, e as duas últimas não afetam a
-saída pedida no print.
-
 ## Referências
 
 - SEBESTA, R. W. *Conceitos de Linguagens de Programação*. 11. ed. Capítulo 4:

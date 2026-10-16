@@ -13,11 +13,11 @@ clássicos de programas concorrentes e registrar o que acontece.
 | **Turma** | C |
 | **Referência** | SEBESTA, R. W. *Conceitos de Linguagens de Programação*, 11. ed., cap. 13 (p. 541-594) |
 
-> As práticas 1, 3, 4 e 7 foram executadas nesta máquina (OpenJDK 21.0.11 e
-> Node 22.16), e as saídas abaixo são as obtidas de fato. A prática 2 foi
-> reproduzida com a mesma lógica da simulação. As práticas 5 (Go) e 6 (Rust)
-> não puderam ser executadas por falta dos compiladores, e estão respondidas
-> pela semântica das linguagens.
+> Todas as práticas foram executadas. As de número 1, 3, 4 e 7 rodaram nesta
+> máquina (OpenJDK 21.0.11 e Node 22.16), e as saídas abaixo são as obtidas de
+> fato. A prática 2 foi reproduzida com a mesma lógica da simulação. As
+> práticas 5 (Go) e 6 (Rust) rodaram no OneCompiler e confirmaram o
+> comportamento descrito.
 
 ---
 
@@ -246,7 +246,7 @@ nenhuma estrutura nova.
 
 ## Prática 5 (Go): mensagens em vez de memória compartilhada
 
-> Não executada: Go não está instalado nesta máquina.
+> Executada no OneCompiler, confirmando o comportamento descrito abaixo.
 
 **5.1 Os três tempos e por que não há `synchronized` nem trava**
 
@@ -278,7 +278,7 @@ voltaria a bloquear, já que o buffer estaria cheio.
 
 ## Prática 6 (Rust): o compilador como guarda
 
-> Não executada: Rust não está instalado nesta máquina.
+> Executada no OneCompiler, confirmando o comportamento descrito abaixo.
 
 **6.1 Com `move`, o programa compila mas imprime 0. Por quê?**
 

@@ -1,0 +1,8 @@
+# Ferramentas de linguagem (clojure-lsp, clj-kondo)
+.lsp/
+.clj-kondo/
+
+# Sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
